@@ -1,19 +1,19 @@
-# Requisitos Não Funcionais - Projeto Park It
+# Requisitos Não Funcionais - Projeto Consultório Médico
 
-Este documento descreve os requisitos não funcionais para o projeto "Park It", um sistema de gerenciamento/utilização de estacionamento.
+Este documento descreve os requisitos não funcionais para o projeto "Consultório Médico", um sistema de gerenciamento para consultórios.
 
-| Identificador | Categoria   | Descrição                                                                                          | Prioridade |
-| ------------- | ----------- | -------------------------------------------------------------------------------------------------- | ---------- |
-| RNF01         | Usabilidade | O aplicativo "Park It" deve ser fácil de usar, permitindo que os usuários aprendam em até 30 minutos. | Alta       |
-| RNF02         | Usabilidade | Os usuários devem ser capazes de finalizar a compra de uma vaga de estacionamento com menos de 5 cliques na página. | Alta       |
-| RNF03         | Usabilidade | O aplicativo "Park It" deve fornecer acesso à ajuda online a partir de qualquer página do sistema. | Média      |
-| RNF04         | Eficiência  | O sistema "Park It" deve processar pelo menos 100 solicitações por segundo para garantir um desempenho ágil. | Alta       |
-| RNF05         | Eficiência  | O tamanho do executável do aplicativo "Park It" não deve exceder 200 MB para garantir a eficiência de armazenamento. | Média      |
-| RNF06         | Eficiência  | O sistema "Park It" deve suportar simultaneamente o uso de 1000 usuários, garantindo alta eficiência em situações de pico. | Alta       |
-| RNF07         | Confiabilidade | O sistema "Park It" deve estar disponível 100% do tempo para garantir a disponibilidade aos usuários. | Alta       |
-| RNF08         | Confiabilidade | Em caso de falha, o sistema "Park It" deve ser capaz de recuperar os dados dos usuários. | Alta       |
-| RNF09         | Portabilidade | O aplicativo "Park It" deve ser compatível com os sistemas operacionais Windows, Linux, Android e IOS para garantir portabilidade. | Alta       |
+| Identificador | Categoria      | Descrição                                                                                                  | Prioridade |
+| ------------- | -------------- | ---------------------------------------------------------------------------------------------------------- | ---------- |
+| RNF01         | Usabilidade     | O sistema deve ser intuitivo e fácil de usar, permitindo que médicos, pacientes e funcionários o utilizem sem dificuldade. | Alta       |
+| RNF02         | Usabilidade     | O sistema deve permitir que os usuários completem suas tarefas principais (cadastro, agendamento, etc.) em no máximo 5 cliques. | Alta       |
+| RNF03         | Eficiência      | O sistema deve ser capaz de processar até 200 consultas simultâneas sem perda de desempenho.                | Alta       |
+| RNF04         | Eficiência      | O tempo de resposta do sistema deve ser inferior a 3 segundos para qualquer operação principal, como agendamento ou consulta de dados. | Média      |
+| RNF05         | Confiabilidade  | O sistema deve ter disponibilidade de 99,9%, com tolerância a falhas e backup automático dos dados a cada 24 horas. | Alta       |
+| RNF06         | Segurança       | Todos os dados dos pacientes, médicos e funcionários devem ser criptografados e armazenados de forma segura, conforme a LGPD. | Alta       |
+| RNF07         | Segurança       | O sistema deve exigir autenticação de usuários para acessar áreas restritas, como o histórico médico ou agenda de consultas. | Alta       |
+| RNF08         | Portabilidade   | O sistema deve ser compatível com os sistemas operacionais Windows, Linux e MacOS, garantindo portabilidade. | Média      |
+| RNF09         | Manutenibilidade | O sistema deve permitir fácil manutenção e atualizações sem interrupção do serviço, com um tempo máximo de recuperação de 2 horas em caso de falhas. | Média      |
 
 ## Conclusão
 
-Esses requisitos não funcionais definem as propriedades e condições críticas para o sistema "Park It". Eles visam garantir que o aplicativo seja eficiente, confiável, fácil de usar e portátil, atendendo às expectativas dos usuários e aos objetivos do projeto.
+Esses requisitos não funcionais garantem que o sistema de Consultório Médico seja seguro, eficiente, confiável e fácil de usar, atendendo às necessidades dos usuários e cumprindo os requisitos técnicos do projeto.
